@@ -1,0 +1,48 @@
+body {
+    color: #888;
+    background: #262626;
+    margin: 0;
+    padding: 40px;
+    text-align: center;
+    font-family: "helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.canvas {
+    width: 150px;
+    height: 300px;
+    top: 150px;
+    left: 45%;
+    text-align: center;
+}
+
+.active {
+    transform-origin: top;
+    transform: scale(3.333333);
+    top: 0;
+    left: 400px;
+    position: absolute;
+}
+
+.inactive {
+    transform-origin: top;
+    transform: scale(1);
+    position: relative;
+}
+
+#ranking {
+    transform-origin: top;
+    transform: scale(3.333333);
+    top: 0;
+    left: 950px;
+    position: absolute;
+}
+
+
+#display {
+    display: grid;
+    gap: 50px;
+    place-items: start stretch;
+    top: 50px;
+    left: 400px;
+    position: absolute;
+}
